@@ -1,0 +1,40 @@
+
+.forgot{
+    border: 1px solid green;
+    margin: 20px 40px;
+}
+
+.imgforgot{
+    /* margin-left: 580px; */
+    text-align: center;
+    width: 300px;
+    height: 150px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.imgforgot_two{
+    text-align: center;
+}
+
+.forgot_header{
+    text-align: center;
+    color: #777;
+    font-family: sans-serif;
+    text-shadow: 5px 5px 5px silver;
+}
+
+.field{
+    text-align: center;
+    margin: 20px 0;
+    /* background: blue; */
+}
+
+.actions{
+    text-align: center;
+    margin: 20px 0;
+    /* background: green; */
+}
+
+
+

@@ -1,0 +1,16 @@
+
+<div class="edit">
+<%= image_tag "https://www.tlnt.com/wp-content/uploads/sites/4/2020/11/basecamp-logo-stacked.png", class: "imgedit" %>
+
+<h1>Editing Project</h1>
+
+<%= render "form", project: @project %>
+
+<br>
+
+<div>
+  <%= link_to "Show this project", @project, class: "edit_show" %> |
+  <%= link_to "Back to projects", projects_path, class: "edit_back" %>
+</div>
+
+</div>

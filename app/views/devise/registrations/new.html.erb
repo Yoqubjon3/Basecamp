@@ -1,0 +1,40 @@
+<div class="content">
+<div class="sign_img_class"> 
+    <%= image_tag "https://www.tlnt.com/wp-content/uploads/sites/4/2020/11/basecamp-logo-stacked.png", class: "sign_img" %>
+    <h2 class="header_two_sign_ups">SIGN UP</h2>
+
+</div>
+
+<div class="for_sign_up_form">
+
+<%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+  <%= render "devise/shared/error_messages", resource: resource %>
+
+  <div class="field">
+    <%= f.label :email, class: "email" %><br />
+    <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
+  </div>
+
+  <div class="field">
+    <%= f.label :password, class: "passwords" %>
+    <% if @minimum_password_length %>
+    <em>(<%= @minimum_password_length %> characters minimum)</em>
+    <% end %><br />
+    <%= f.password_field :password, autocomplete: "new-password" %>
+  </div>
+
+  <div class="field">
+    <%= f.label :password_confirmation, class: "password_f" %><br />
+    <%= f.password_field :password_confirmation, autocomplete: "new-password" %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit "Sign up", data: {turbo: false}, class: "sign_submit_top" %>
+  </div>
+<% end %>
+
+<%= render "devise/shared/links" %>
+
+
+</div>
+</div>

@@ -1,0 +1,30 @@
+<div class="img_img">
+<p style="color: green"><%= notice %></p>
+
+<%= image_tag "https://www.tlnt.com/wp-content/uploads/sites/4/2020/11/basecamp-logo-stacked.png", class: "img_name" %>
+
+</div> 
+<h1 class="newproject">Projects</h1>
+<div class="row">
+<div id="projects">
+<% @projects.each do |project| %>
+  
+  <% if current_user == project.user %>
+  
+  
+  <%= render project %>
+  <p class="show_this">
+  <%= link_to "Show this project", project, class: "show_this_two" %>
+  </p>
+  <% end %>
+  
+  <% end %>
+  </div>
+  <div>
+  </div>
+
+  <p class="new_page">
+  <%= link_to "New project", new_project_path, class: "newpro" %>
+    </p>
+</div>  
+ 

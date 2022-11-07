@@ -1,0 +1,36 @@
+
+<div class="container">
+
+ <%= image_tag "https://www.tlnt.com/wp-content/uploads/sites/4/2020/11/basecamp-logo-stacked.png", class: "imgone" %>
+
+
+<h2 class="header_two_sign_up">Log in</h2>
+
+<div class="for_sign_up_form">
+
+<%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+  <div class="field">
+    <%= f.label :email, class: "email" %><br />
+    <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
+  </div>
+
+  <div class="field">
+    <%= f.label :password, class: "password_lf" %><br />
+    <%= f.password_field :password, autocomplete: "current-password" %>
+  </div>
+
+  <% if devise_mapping.rememberable? %>
+    <div class="field">
+      <%= f.check_box :remember_me, class: "checkbox" %>
+      <%= f.label :remember_me, class: "check_two" %>
+    </div>
+  <% end %>
+
+  <div class="actions">
+    <%= f.submit "Log in", class: "clases" %>
+  </div>
+<% end %>
+
+<%= render "devise/shared/links" %>
+</div>
+</div>

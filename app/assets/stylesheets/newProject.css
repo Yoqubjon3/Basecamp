@@ -1,0 +1,131 @@
+
+
+.imgedit{
+    margin-left: 20px;
+    width: 300px;
+    height: 150px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.newproject{
+    color: rgb(38, 37, 37);
+    text-align: center;
+    border-radius: 10px;
+    /* background-color: rgb(196, 197, 197); */
+    margin: 0 30%;
+    margin-bottom: 60px;
+    letter-spacing: 6px;
+}
+.newclass{
+    text-align: center;
+}
+
+.newproject_link{
+    padding: 8px 22px;
+    text-decoration: none;
+    background: silver;
+    border: none;
+    border-radius: 10px;
+}
+
+.newproject_link:hover{
+    border: 0.5px solid rgb(202, 255, 77);
+    border-radius: 10px;
+    color: white;
+    transition: all 1s;
+    background: rgb(12, 12, 12);
+}
+
+.new_page{
+    text-align: center;
+}
+
+.newpro{
+    padding: 8px 22px;
+    text-decoration: none;
+    background: silver;
+    border: none;
+    border-radius: 10px;
+}
+
+.newpro:hover{
+    border: 0.5px solid rgb(202, 255, 77);
+    border-radius: 10px;
+    color: white;
+    transition: all 1s;
+    background: rgb(12, 12, 12);
+}
+
+
+.name_strong{
+    color: blue;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.name_page{
+    text-align: center;
+}
+
+.show_back{
+    text-align: center;
+}
+
+.edit,
+.back{
+    text-decoration: none;
+    border: 1px solid silver;
+    padding: 5px 14px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+
+.link_edit{
+    text-decoration: none;
+    border: 1px solid silver;
+    padding: 5px 10px;
+}
+
+.edit_show,
+.edit_back{
+    color: blue;
+    position: relative;
+    bottom: -40px;
+    border: 0.7px solid silver;
+    border-radius: 5px;
+    padding: 6px 18px;
+    text-decoration: none;
+}
+
+.edit{
+    text-align: center;
+}
+
+.destony{
+    margin-top: 40px;
+    color: red;
+    border: 0.7px solid silver;
+    border-radius: 5px;
+    padding: 5px 14px;
+}
+
+
+.show_this{
+    text-align: center;
+    text-decoration: none;
+}
+
+.show_this_two{
+    text-decoration: none;
+}
+
+.show_this_two:hover{
+    color: green;
+    border: 1px solid silver;
+    border-radius: 5px;
+    
+}

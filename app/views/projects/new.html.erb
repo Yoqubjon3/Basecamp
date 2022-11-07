@@ -1,0 +1,15 @@
+<div class="img_img">
+    <%= image_tag "https://www.tlnt.com/wp-content/uploads/sites/4/2020/11/basecamp-logo-stacked.png", class: "img_name" %>
+
+   <h1 class="newproject">New project</h1>
+
+   <%= render "form", project: @project %>
+
+     <br>
+
+    <div>
+      <p class="newclass text-center">
+      <%= link_to "Back to projects", projects_path, class: "newproject_link" %>
+      </p>
+    </div>
+ </div>
