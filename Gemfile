@@ -78,4 +78,4 @@ end
 
 gem "devise"
 
-gem "bundler", "~> 2.3"
+# gem "bundler", "~> 2.3"
